@@ -4,7 +4,6 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :first_name
       t.string :last_name
       t.string :description
-      t.string :stack
       t.string :github_link
       
       t.timestamps
