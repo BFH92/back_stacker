@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  stack: MyString
+  github: MyString
+  staff_size: MyString
+  is_it_recruiting: false
+
+two:
+  name: MyString
+  description: MyText
+  stack: MyString
+  github: MyString
+  staff_size: MyString
+  is_it_recruiting: false
