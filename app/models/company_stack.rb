@@ -1,0 +1,2 @@
+class CompanyStack < ApplicationRecord
+end
