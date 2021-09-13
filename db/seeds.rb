@@ -126,7 +126,7 @@ nocode_stacks = [
   company = Company.create!(
     name: Faker::Company.name,
     description: Faker::Lorem.paragraph(sentence_count: 3),
-    # email: "",
+    email: "",
     github_link: "https://github.com/",
     website_link: Faker::Internet.domain_name(domain: "supercompany"),
     staff_size: size.sample,
@@ -137,6 +137,7 @@ end
 
 10.times do 
   user = User.create!(
+    email: Faker::Internet.email,
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Lorem.paragraph(sentence_count: 3),
@@ -240,7 +241,7 @@ end
   )
 end
 
-10.times do |i|
+9.times do |i|
   stack = Stack.create!(
     name: nocode_stacks[i],
     stack_category_id: 8
