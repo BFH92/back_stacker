@@ -1,0 +1,2 @@
+class UsersStack < ApplicationRecord
+end
