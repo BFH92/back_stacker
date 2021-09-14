@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   resources :users
   resources :companies
   resources :stacks
-  post 'forgotten_password' => "password#forgot"
-  post 'reset_password' => "password#reset"
+  post 'forgotten_password' => "users/password#forgot"
+  post 'reset_password' => "users/password#reset"
   
 end

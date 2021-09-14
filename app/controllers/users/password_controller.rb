@@ -1,4 +1,4 @@
-class PasswordController < ApplicationController
+class Users::PasswordController < ApplicationController
 
   def forgot
   
