@@ -126,7 +126,7 @@ nocode_stacks = [
   company = Company.create!(
     name: Faker::Company.name,
     description: Faker::Lorem.paragraph(sentence_count: 3),
-    email: "",
+    email: Faker::Internet.email,
     github_link: "https://github.com/",
     website_link: Faker::Internet.domain_name(domain: "supercompany"),
     staff_size: size.sample,
