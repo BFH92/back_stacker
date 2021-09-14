@@ -1,7 +1,7 @@
 class Users::PasswordController < ApplicationController
 
   def forgot
-  
+
   email= params[:email]
   user = User.find_by(email:email)
     puts "+++++++++++"
@@ -29,7 +29,7 @@ class Users::PasswordController < ApplicationController
     puts "+++++++++++"
     if user.present? & user.reset_password_period_valid?
 
-      if user.reset_password(password_params)
+      if user.reset_password(params[:password],params[:password_confirmation] )
         render json: {
           alert: "Your password has been successfuly reset!"
         }
