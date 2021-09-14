@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   resources :users
   resources :companies
   resources :stacks
-
+  post 'forgotten_password' => "users/password#forgot"
+  post 'reset_password' => "users/password#reset"
   
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
