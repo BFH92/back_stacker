@@ -5,7 +5,8 @@ class CompaniesController < ApplicationController
 
   def index
     @companies = Set.new
-    
+  
+
     @names = params[:name]
     if @names
       @names = @names.split(",")
@@ -18,9 +19,24 @@ class CompaniesController < ApplicationController
     else
       @companies = Company.all
     end
-    
-  
-    render json: @companies
+
+    @staff_size = params[:staff_size]
+    @filtered_companies = Set.new
+    if @staff_size
+      @staff_size = @staff_size.split(",")
+      @staff_size.map do |staff_size|
+        @select = @companies.map do |company|
+          if company.staff_size == staff_size
+            @filtered_companies.add(company)
+          end
+        end
+      end
+    else
+        @filtered_companies = @companies    
+    end
+
+
+    render json: @filtered_companies
   end
 
   # GET /companies/1
