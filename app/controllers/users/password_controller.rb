@@ -4,10 +4,6 @@ class Users::PasswordController < ApplicationController
 
   email= params[:email]
   user = User.find_by(email:email)
-    puts "+++++++++++"
-    puts user.id
-    puts user.email
-    puts "+++++++++++"
     if user
       render json: {
         alert: "If this user exists, we have sent you a password reset email."
@@ -24,9 +20,6 @@ class Users::PasswordController < ApplicationController
     email= params[:email]
     user = User.find_by(email:email)
     token = params[:token]
-    puts "+++++++++++"
-    puts user
-    puts "+++++++++++"
     if user.present? & user.reset_password_period_valid?
 
       if user.reset_password(params[:password],params[:password_confirmation] )
