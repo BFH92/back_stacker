@@ -5,8 +5,6 @@ class CompaniesController < ApplicationController
 
   def index
     @companies = Set.new
-  
-
     @names = params[:name]
     if @names
       @names = @names.split(",")
@@ -34,9 +32,9 @@ class CompaniesController < ApplicationController
     else
         @filtered_companies = @companies    
     end
-
-
-    render json: @filtered_companies
+    render json: @filtered_companies.map{|company|
+      company.as_json.merge(stacks: company.stacks)
+      }
   end
 
   # GET /companies/1
