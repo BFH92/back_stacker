@@ -5,7 +5,7 @@ class CompaniesController < ApplicationController
 
   def index
     @companies = Set.new
-    @names = params[:name]
+    @names = params[:stack]
     if @names
       @names = @names.split(",")
       @names.map do|name|
