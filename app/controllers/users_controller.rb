@@ -29,7 +29,7 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   def update
     if @user.update(user_params)
-      render json: @user
+      render json:  @user.as_json.merge(stacks: @user.stacks)
     else
       render json: @user.errors, status: :unprocessable_entity
     end
