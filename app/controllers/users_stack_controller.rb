@@ -10,7 +10,9 @@ class UsersStackController < ApplicationController
     render json: @user_stack
   end
   def create
-    @users_stack = UsersStack.new(users_stack_params)
+  #  user_stack_id = UsersStack.find_by(stack_id:Stack.find_by(name:"Python"))
+    stack_id = Stack.find_by(name:params[:stack]).id
+    @users_stack = UsersStack.new(user_id: current_user.id, stack_id: stack_id)
 
     if @users_stack.save
       render json: @users_stack, status: :created, location: @users_stack
@@ -26,6 +28,6 @@ class UsersStackController < ApplicationController
     @user_stack = UsersStack.find(params[:id])
   end
   def users_stack_params
-    params.permit(:user_id,:stack_id)
+    params.permit(:user_id,:stack_id, :stack)
   end
 end
