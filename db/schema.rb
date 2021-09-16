@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2021_09_13_103659) do
   create_table "companies", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.string "stack"
     t.string "github_link"
     t.string "website_link"
     t.string "staff_size"
