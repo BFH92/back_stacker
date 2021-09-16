@@ -5,12 +5,14 @@ class UsersController < ApplicationController
   def index
     @users = User.all
 
-    render json: @users
+    render json: @users.map{|user|
+      user.as_json.merge(stacks: user.stacks)
+      }
   end
 
   # GET /users/1
   def show
-    render json: @user
+    render json: @user.as_json.merge(stacks: @user.stacks)
   end
 
   # POST /users
