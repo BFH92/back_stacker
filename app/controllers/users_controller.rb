@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     @users = User.all
 
     render json: @users.map{|user|
-      user.as_json.merge(stacks: user.stacks)
+      user.as_json.merge(stacks: user.stacks,user_stacks: user.users_stacks)
       }
   end
 
