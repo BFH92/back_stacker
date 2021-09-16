@@ -6,6 +6,7 @@ class Company < ApplicationRecord
          :recoverable, :database_authenticatable,jwt_revocation_strategy: JwtDenylist
 
   belongs_to :company_category, optional: true
-  has_many :stacks, through: :company_stacks
   
+  has_many :companies_stacks
+  has_many :stacks, through: :companies_stacks
 end

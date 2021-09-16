@@ -1,4 +1,4 @@
-class Users::UsersController < ApplicationController
+class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
   # GET /users
@@ -46,6 +46,6 @@ class Users::UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:first_name, :last_name, :description, :stack, :github_link)
+      params.permit(:first_name, :last_name, :description, :stack, :github_link)
     end
 end

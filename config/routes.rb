@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   resources :companies
   resources :stacks
 
+  post 'user/forgotten_password' => "users/password#forgot"
+  post 'user/reset_password' => "users/password#reset"
+  post 'company/forgotten_password' => "companies/password#forgot"
+  post 'company/reset_password' => "companies/password#reset"
   
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
