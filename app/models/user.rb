@@ -6,7 +6,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :jwt_authenticatable,:registerable,
          :recoverable, :database_authenticatable,jwt_revocation_strategy: JwtDenylist
          
-  
+  has_many :users_stacks
   has_many :stacks, through: :users_stacks
 
 
