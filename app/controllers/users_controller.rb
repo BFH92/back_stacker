@@ -5,12 +5,14 @@ class UsersController < ApplicationController
   def index
     @users = User.all
 
-    render json: @users
+    render json: @users.map{|user|
+      user.as_json.merge(stacks: user.stacks)
+      }
   end
 
   # GET /users/1
   def show
-    render json: @user
+    render json: @user.as_json.merge(stacks: @user.stacks)
   end
 
   # POST /users
@@ -46,6 +48,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:first_name, :last_name, :description, :stack, :github_link)
+      params.permit(:first_name, :last_name, :description, :stack, :github_link)
     end
 end
