@@ -4,15 +4,17 @@ class UsersController < ApplicationController
   # GET /users
   def index
     @users = User.all
-
+    
     render json: @users.map{|user|
-      user.as_json.merge(stacks: user.stacks)
+      user.as_json.merge(stacks: user.stacks,user_stacks: user.users_stacks)
       }
   end
 
   # GET /users/1
   def show
-    render json: @user.as_json.merge(stacks: @user.stacks)
+    @user_stack = UsersStack.where(user_id:@user.id)
+    @stacks_names = @user_stack.map{|stack| {name: Stack.find(stack.stack_id).name, user_stack_id: stack.id}}
+    render json: @user.as_json.merge(user_stacks: @stacks_names)
   end
 
   # POST /users
@@ -29,7 +31,7 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   def update
     if @user.update(user_params)
-      render json: @user
+      render json:  @user.as_json.merge(stacks: @user.stacks)
     else
       render json: @user.errors, status: :unprocessable_entity
     end

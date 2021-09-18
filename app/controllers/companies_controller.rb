@@ -5,11 +5,11 @@ class CompaniesController < ApplicationController
 
   def index
     @companies = Set.new
-    @names = params[:stack]
-    if @names
-      @names = @names.split(",")
-      @names.map do|name|
-        @queries = Stack.find_by(name:name).companies
+    @stacks = params[:stack]
+    if @stacks
+      @stacks = @stacks.split(",")
+      @stacks.map do|stack|
+        @queries = Stack.find_by(name:stack).companies
         @queries.map do |query|
           @companies.add(query)
         end
@@ -33,7 +33,7 @@ class CompaniesController < ApplicationController
         @filtered_companies = @companies    
     end
     render json: @filtered_companies.map{|company|
-      company.as_json.merge(stacks: company.stacks)
+      company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks)
       }
   end
 
