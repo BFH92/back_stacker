@@ -8,6 +8,10 @@ class CompaniesStackController < ApplicationController
   
   def get_id
     stack_id = Stack.find_by(name:params[:stack]).id
+    puts "========="
+    puts  current_company.id
+    puts "========="
+
     @company_stack = CompaniesStack.find_by(stack_id: stack_id, company_id: current_company.id)
     render json: @company_stack
   end
