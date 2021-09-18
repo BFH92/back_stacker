@@ -122,7 +122,12 @@ nocode_stacks = [
   "WordPress"
 ]
 
-10.times do 
+companies_qty = 100
+users_qty= 10
+stack_by_user = 3
+stack_by_company = 3
+
+companies_qty.times do 
   company = Company.create!(
     name: Faker::Company.name,
     description: Faker::Lorem.paragraph(sentence_count: 3),
@@ -135,7 +140,7 @@ nocode_stacks = [
   )
 end
 
-10.times do 
+users_qty.times do 
   user = User.create!(
     email: Faker::Internet.email,
     first_name: Faker::Name.first_name,
@@ -192,72 +197,76 @@ end
   )
 end
 
-10.times do |i|
+backend_stacks.length.times do |i|
   stack = Stack.create!(
     name: backend_stacks[i],
     stack_category_id: 1
   )
 end
 
-10.times do |i|
+frontend_stacks.length.times do |i|
   stack = Stack.create!(
     name: frontend_stacks[i],
     stack_category_id: 2
   )
 end
 
-10.times do |i|
+devops_stacks.length.times do |i|
   stack = Stack.create!(
     name: devops_stacks[i],
     stack_category_id: 3
   )
 end
 
-10.times do |i|
+data_stacks.length.times do |i|
   stack = Stack.create!(
     name: data_stacks[i],
     stack_category_id: 4
   )
 end
 
-10.times do |i|
+mobile_stacks.length.times do |i|
   stack = Stack.create!(
     name: mobile_stacks[i],
     stack_category_id: 5
   )
 end
 
-10.times do |i|
+project_management_stacks.length.times do |i|
   stack = Stack.create!(
     name: project_management_stacks[i],
     stack_category_id: 6
   )
 end
 
-10.times do |i|
+ide_stacks.length.times do |i|
   stack = Stack.create!(
     name: ide_stacks[i],
     stack_category_id: 7
   )
 end
 
-9.times do |i|
+nocode_stacks.length.times do |i|
   stack = Stack.create!(
     name: nocode_stacks[i],
     stack_category_id: 8
   )
 end
 
-10.times do
+users_qty.times do |i|
+  stack_by_user.times do 
   user_stack = UsersStack.create!(
-    user_id: Faker::Number.between(from: 1, to: 10),
+    user_id: i+1,
     stack_id: Faker::Number.between(from: 1, to: 10)
   )
 end
+end
 
-10.times do
+companies_qty.times do|i|
+  stack_by_company.times do 
   company_stack = CompaniesStack.create!(
-    company_id: Faker::Number.between(from: 1, to: 10),
-    stack_id: Faker::Number.between(from: 1, to: 10)
+    company_id: i+1,
+    stack_id: Faker::Number.between(from: 1, to: 68)
   )
+end
 end
