@@ -9,6 +9,9 @@ class UsersStackController < ApplicationController
   
   def get_id
     stack_id = Stack.find_by(name:params[:stack]).id
+    puts "==++=="
+    puts stack_id
+    puts "==++=="
     @user_stack = UsersStack.find_by(stack_id: stack_id, user_id: current_user.id)
     puts "====="
     puts @user_stack.id

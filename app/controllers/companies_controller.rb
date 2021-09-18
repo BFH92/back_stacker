@@ -39,9 +39,9 @@ class CompaniesController < ApplicationController
 
   # GET /companies/1
   def show
-    @company_stack = CompaniesStack.where(company_id:@company.id)
+    @company_stack = CompaniesStack.where(company_id: @company.id)
     @stacks_names = @company_stack.map{|stack| {name: Stack.find(stack.stack_id).name, company_stack_id: stack.id}}
-    render json: @company.as_json.merge(company_stacks: @stacks_names)
+    render json: @company.as_json.merge(company_stacks: @stacks_names, company_id: @company.id)
     
   end
 
