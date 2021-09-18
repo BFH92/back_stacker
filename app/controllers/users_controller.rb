@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   def index
     @users = User.all
-
+    
     render json: @users.map{|user|
       user.as_json.merge(stacks: user.stacks,user_stacks: user.users_stacks)
       }
@@ -12,7 +12,9 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user.as_json.merge(stacks: @user.stacks)
+    @user_stack = UsersStack.where(user_id:@user.id)
+    @stacks_names = @user_stack.map{|stack| {name: Stack.find(stack.stack_id).name, user_stack_id: stack.id}}
+    render json: @user.as_json.merge(user_stacks: @stacks_names)
   end
 
   # POST /users

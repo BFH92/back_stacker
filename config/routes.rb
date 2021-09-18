@@ -13,9 +13,11 @@ Rails.application.routes.draw do
   resources :companies
   resources :stacks
   resources :users_stack
+  resources :companies_stack
   post 'user/forgotten_password' => "users/password#forgot"
   post 'user/reset_password' => "users/password#reset"
   post 'company/forgotten_password' => "companies/password#forgot"
   post 'company/reset_password' => "companies/password#reset"
-  
+  get 'specific_user_stack_id' => "users_stack#get_id"
+  get 'specific_company_stack_id' => "companies_stack#get_id"
 end
