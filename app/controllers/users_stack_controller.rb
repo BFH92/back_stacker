@@ -10,19 +10,13 @@ class UsersStackController < ApplicationController
   def get_id
     stack_id = Stack.find_by(name:params[:stack]).id
     @user_stack = UsersStack.find_by(stack_id: stack_id, user_id: current_user.id)
-    puts "====="
-    puts @user_stack.id
-    puts "====="
     render json: @user_stack
   end
 
   def create
   
     stack_id = Stack.find_by(name:params[:stack]).id
-    puts "=== curerent user"
     puts current_user.id
-    puts "=== curerent user"
-
     @users_stack = UsersStack.new(user_id:current_user.id, stack_id: stack_id)
 
     if @users_stack.save
