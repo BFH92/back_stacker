@@ -14,7 +14,5 @@ class User < ApplicationRecord
     UserMailer.welcome_email(self).deliver_now
   end
 
-  def send_reset_password_instructions
-    UserDeviseMailer.reset_password_instructions.deliver_now
-   end
+  
 end
