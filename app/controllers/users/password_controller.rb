@@ -8,7 +8,7 @@ class Users::PasswordController < ApplicationController
       render json: {
         alert: "If this user exists, we have sent you a password reset email."
       }
-      user.reset_password_instructions
+      user.send_reset_password_instructions
     else
       render json: {
         alert: "wrong."
