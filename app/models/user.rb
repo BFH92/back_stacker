@@ -15,6 +15,6 @@ class User < ApplicationRecord
   end
 
   def send_reset_password_instructions
-    UserDeviseMailer.reset_password_instructions(self.email).deliver_now
+    UserDeviseMailer.reset_password_instructions(self.email, self.token).deliver_now
    end
 end
