@@ -16,7 +16,7 @@ class User < ApplicationRecord
 
   def send_reset_password_instructions
     token = set_reset_password_token
-    UserMailer.reset_password_instructions(self.email,token).deliver_now
+    UserDeviseMailer.reset_password_instructions(self.email,token).deliver_now
     token
   end
 end
