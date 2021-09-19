@@ -3,7 +3,8 @@ class UserDeviseMailer < Devise::Mailer
   def reset_password_instructions(record, token, opts={})
     super
     puts "USERDEVISEMAILER"
-    puts recordputs token
+    puts record
+    puts token
   #  mail(to: record.email, subject: 'password !') 
   end
 end
