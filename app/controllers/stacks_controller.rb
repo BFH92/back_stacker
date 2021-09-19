@@ -5,7 +5,9 @@ class StacksController < ApplicationController
   def index
     @stacks = Stack.all
 
-    render json: @stacks
+    render json: @stacks.map{|stack|
+      stack.as_json.merge(stack_category: stack.stack_category.name)
+    }
   end
 
   # GET /stacks/1
