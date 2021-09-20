@@ -1,37 +1,17 @@
 class CompaniesController < ApplicationController
   before_action :set_company, only: [:show, :update, :destroy]
-
+  
   # GET /companies
 
   def index
-    @companies = Set.new
-    @stacks = params[:stack]
-    if @stacks
-      @stacks = @stacks.split(",")
-      @stacks.map do|stack|
-        @queries = Stack.find_by(name:stack).companies
-        @queries.map do |query|
-          @companies.add(query)
-        end
-      end
-    else
-      @companies = Company.all
-    end
 
+    @companies = Company.all
+    @stacks = params[:stack]
     @staff_size = params[:staff_size]
-    @filtered_companies = Set.new
-    if @staff_size
-      @staff_size = @staff_size.split(",")
-      @staff_size.map do |staff_size|
-        @select = @companies.map do |company|
-          if company.staff_size == staff_size
-            @filtered_companies.add(company)
-          end
-        end
-      end
-    else
-        @filtered_companies = @companies    
-    end
+    @categories = params[:categories]
+    
+    @filtered_companies = @companies.filtering(@stacks,@staff_size,@categories)
+    
     render json: @filtered_companies.map{|company|
       company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks)
       }
