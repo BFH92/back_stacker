@@ -9,7 +9,7 @@ class CompaniesController < ApplicationController
     @stacks = params[:stack]
     @staff_size = params[:staff_size]
     @categories = params[:categories]
-    
+    puts @categories
     @filtered_companies = @companies.filtering(@stacks,@staff_size,@categories)
     
     render json: @filtered_companies.map{|company|
