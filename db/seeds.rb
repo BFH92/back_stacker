@@ -5,8 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-size = ["0..9", "10..49", "50..249", "250..+"]
 
+#variables to config
+companies_qty = 100
+users_qty= 10
+stack_by_user = 3
+stack_by_company = 3
+
+
+size = ["0-9", "10-49", "50-249", "250+"]
+company_categories = ["startup","classic","it-services","web-agency","big-tech-company"]
 backend_stacks = [
   "Node.js", 
   "Python",
@@ -122,10 +130,13 @@ nocode_stacks = [
   "WordPress"
 ]
 
-companies_qty = 100
-users_qty= 10
-stack_by_user = 3
-stack_by_company = 3
+
+
+company_categories.length.times do |i|
+  category = CompanyCategory.create!(
+    name: company_categories[i]
+  )
+end
 
 companies_qty.times do 
   company = Company.create!(
