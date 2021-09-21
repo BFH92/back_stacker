@@ -24,4 +24,5 @@ Rails.application.routes.draw do
   get 'specific_user_stack_id' => "users_stack#get_id"
   get 'specific_company_stack_id' => "companies_stack#get_id"
   get 'favorite_id' => "favorites_companies#get_favorite"
+  get 'favorites_by_user' => "favorites_companies#get_favorites_companies_by_user"
 end
