@@ -4,9 +4,9 @@ class StacksController < ApplicationController
   # GET /stacks
   def index
     @stacks = Stack.all
-
     render json: @stacks.map{|stack|
-      stack.as_json.merge(stack_category: stack.stack_category.name)
+      @companies_count = CompaniesStack.where(stack_id: stack.id).length
+      stack.as_json.merge(stack_category: stack.stack_category.name, companies_count: @companies_count)
     }
   end
 
