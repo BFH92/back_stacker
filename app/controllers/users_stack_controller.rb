@@ -14,17 +14,16 @@ class UsersStackController < ApplicationController
   end
 
   def create
-  
     stack_id = Stack.find_by(name:params[:stack]).id
     puts current_user.id
     @users_stack = UsersStack.new(user_id:current_user.id, stack_id: stack_id)
-
     if @users_stack.save
       render json: @users_stack, status: :created, location: @users_stack
     else
       render json: @users_stack.errors, status: :unprocessable_entity
     end
   end
+  
   def destroy  
     @user_stack = UsersStack.find(params[:id])
     @user_stack.destroy

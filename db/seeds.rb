@@ -13,7 +13,7 @@ stack_by_user = 3
 stack_by_company = 3
 
 
-size = ["0-9", "10-49", "50-249", "250+"]
+size = ["0-9", "10-49", "50-249", "250more"]
 company_categories = ["startup","classic","it-services","web-agency","big-tech-company"]
 backend_stacks = [
   "Node.js", 
