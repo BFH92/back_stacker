@@ -5,15 +5,17 @@ class CompaniesController < ApplicationController
 
   def index
 
-    @companies = Company.all
+    @completed_companies = Company.all.where.not(description:"null", name: "null", company_category_id:"null")
     @stacks = params[:stack]
     @staff_size = params[:staff_size]
     @categories = params[:categories]
     puts @categories
-    @filtered_companies = @companies.filtering(@stacks,@staff_size,@categories)
+    @filtered_companies = @completed_companies.filtering(@stacks,@staff_size,@categories)
     
     render json: @filtered_companies.map{|company|
-      company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks)
+      category_id = company.company_category_id
+      company_category_name = CompanyCategory.find(category_id).name
+      company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks, category_name: company_category_name  )
       }
   end
 
