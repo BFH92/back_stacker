@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :saved_searches
   resources :favorites_companies
   devise_for :companies,
   controllers: {
@@ -16,6 +17,7 @@ Rails.application.routes.draw do
   resources :users_stack
   resources :companies_stack
   resources :favorites_companies
+  resources :saved_searches
   
   post 'user/forgotten_password' => "users/password#forgot"
   post 'user/reset_password' => "users/password#reset"
