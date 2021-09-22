@@ -9,7 +9,6 @@ class SavedSearchesController < ApplicationController
 
   def create
     @saved_search = SavedSearch.new(staff_size: params[:staff_size], stacks: params[:stacks], company_category: params[:company_category],user_id: current_user.id)
-
     if @saved_search.save
       render json: @saved_search, status: :created, location: @saved_search
     else
@@ -22,8 +21,9 @@ class SavedSearchesController < ApplicationController
   end
 
   private
-
-    # Only allow a list of trusted parameters through.
+    def set_saved_search
+      @saved_search = SavedSearch.find(params[:id])
+    end
     def saved_search_params
       params.permit(:staff_size, :company_category, :stacks)
     end
