@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  staff_size: MyString
+  company_category: MyString
+  stacks: MyString
+  user: one
+
+two:
+  staff_size: MyString
+  company_category: MyString
+  stacks: MyString
+  user: two
