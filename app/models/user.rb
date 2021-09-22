@@ -9,7 +9,8 @@ class User < ApplicationRecord
   has_many :users_stacks
   has_many :stacks, through: :users_stacks
   has_many :favorites_companies
-
+  has_many :saved_searches
+  
   def welcome_send
     UserMailer.welcome_email(self).deliver_now
   end
