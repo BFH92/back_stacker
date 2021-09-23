@@ -9,14 +9,18 @@ class CompaniesController < ApplicationController
     @stacks = params[:stack]
     @staff_size = params[:staff_size]
     @categories = params[:categories]
+    @short_list = params[:short_list]
     puts @categories
     @filtered_companies = @completed_companies.filtering(@stacks,@staff_size,@categories)
     
-    render json: @filtered_companies.map{|company|
+    @filtered_companies = @filtered_companies.map{|company|
       category_id = company.company_category_id
       company_category_name = CompanyCategory.find(category_id).name
       company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks, category_name: company_category_name  )
       }
+
+      @filtered_companies = @filtered_companies.each_slice(20).to_a
+      render json:  @filtered_companies[@short_list.to_i]
   end
 
   # GET /companies/1
@@ -60,6 +64,6 @@ class CompaniesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def company_params
-      params.permit(:name, :description, :website_link, :github_link, :staff_size, :is_it_recruiting)
+      params.permit(:name, :description, :website_link, :github_link, :staff_size, :is_it_recruiting, :short_list)
     end
 end
