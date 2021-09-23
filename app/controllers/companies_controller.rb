@@ -4,23 +4,20 @@ class CompaniesController < ApplicationController
   # GET /companies
 
   def index
-
-    @completed_companies = Company.all.where.not(description:"null", name: "null", company_category_id:"null")
+    @short_list = params[:short_list]
+    range_1 = @short_list.to_i*20
+    @completed_companies = Company.where.not(description:"null", name: "null", company_category_id:"null").offset(range_1).limit(100)
     @stacks = params[:stack]
     @staff_size = params[:staff_size]
     @categories = params[:categories]
-    @short_list = params[:short_list]
-    puts @categories
-    @filtered_companies = @completed_companies.filtering(@stacks,@staff_size,@categories)
+    @filtered_companies = @completed_companies.filtering(@stacks,@staff_size,@categories,@completed_companies)
     
     @filtered_companies = @filtered_companies.map{|company|
       category_id = company.company_category_id
       company_category_name = CompanyCategory.find(category_id).name
       company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks, category_name: company_category_name  )
       }
-
-      @filtered_companies = @filtered_companies.each_slice(20).to_a
-      render json:  @filtered_companies[@short_list.to_i]
+      render json:  @filtered_companies.first(20)
   end
 
   # GET /companies/1
@@ -64,6 +61,6 @@ class CompaniesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def company_params
-      params.permit(:name, :description, :website_link, :github_link, :staff_size, :is_it_recruiting, :short_list)
+      params.permit(:name, :company_category_id, :description, :website_link, :github_link, :staff_size, :is_it_recruiting, :short_list)
     end
 end
