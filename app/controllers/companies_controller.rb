@@ -5,9 +5,9 @@ class CompaniesController < ApplicationController
 
   def index
     @short_list = params[:short_list]
-    range_1 = @short_list.to_i*20+@short_list.to_i
+    range_1 = @short_list.to_i*20+1
     range_2 = (range_1)+19
-    @completed_companies = Company.all.where.not(description:"null", name: "null", company_category_id:"null").where(id:[range_1..range_2])
+    @completed_companies = Company.all.where.not(description:"null", name: "null", company_category_id:"null").offset(range_1).fifth
     @stacks = params[:stack]
     @staff_size = params[:staff_size]
     @categories = params[:categories]

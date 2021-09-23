@@ -10,7 +10,7 @@ class Company < ApplicationRecord
   has_many :companies_stacks
   has_many :stacks, through: :companies_stacks
 
-def self.filtering(stacks, staff_size, categories)
+def filtering(stacks, staff_size, categories)
   @stacked_companies = Set.new
 
   if stacks
