@@ -25,6 +25,7 @@ class FavoritesCompaniesController < ApplicationController
     @favorites_companies = FavoritesCompany.where(user_id:current_user.id)
     render json: @favorites_companies.map{|favorite|
       company = Company.find(favorite.company_id)
+      company = company.as_json.merge(stacks: company.stacks)
       favorite.as_json.merge(data: company)
       }
   
