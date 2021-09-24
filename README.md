@@ -30,6 +30,8 @@ In the future we want to build a solid platform for junior devs and companies to
 
 ### Development:
 
+- Version : Ruby 2.7.3
+
 - run this command to clone this repository on your machine: `git clone https://github.com/BFH92/back_stacker.git`
 
 - run:
