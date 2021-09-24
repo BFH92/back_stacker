@@ -34,7 +34,7 @@ In the future we want to build a solid platform for junior devs and companies to
 
 - run:
   `bundle install`
-  to install all the modules
+  to install all the gems
 - run
   `rails s`
   to start the server
