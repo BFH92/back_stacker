@@ -5,7 +5,7 @@ class CreateSavedSearches < ActiveRecord::Migration[6.1]
       t.string :company_category
       t.string :stacks
       t.belongs_to :user, null: false, foreign_key: true
-
+      t.string :category_name
       t.timestamps
     end
   end

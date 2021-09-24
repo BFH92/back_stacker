@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(version: 2021_09_22_102459) do
     t.string "company_category"
     t.string "stacks"
     t.bigint "user_id", null: false
+    t.string "category_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_saved_searches_on_user_id"

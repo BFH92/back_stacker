@@ -1,7 +1,5 @@
 class CompaniesController < ApplicationController
   before_action :set_company, only: [:show, :update, :destroy]
-  
-  # GET /companies
 
   def index
     @short_list = params[:short_list]
@@ -20,7 +18,6 @@ class CompaniesController < ApplicationController
       render json:  @filtered_companies.first(20)
   end
 
-  # GET /companies/1
   def show
     @company_stack = CompaniesStack.where(company_id: @company.id)
     @stacks_names = @company_stack.map{|stack| {name: Stack.find(stack.stack_id).name, company_stack_id: stack.id}}
@@ -28,7 +25,6 @@ class CompaniesController < ApplicationController
     
   end
 
-  # POST /companies
   def create
     @company = Company.new(company_params)
 
@@ -39,7 +35,6 @@ class CompaniesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /companies/1
   def update
     if @company.update(company_params)
       render json: @company
@@ -48,18 +43,15 @@ class CompaniesController < ApplicationController
     end
   end
 
-  # DELETE /companies/1
   def destroy
     @company.destroy
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_company
       @company = Company.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
     def company_params
       params.permit(:name, :company_category_id, :description, :website_link, :github_link, :staff_size, :is_it_recruiting, :short_list)
     end
