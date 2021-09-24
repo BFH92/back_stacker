@@ -8,7 +8,7 @@ class SavedSearchesController < ApplicationController
   end
 
   def create
-    @saved_search = SavedSearch.new(staff_size: params[:staff_size], stacks: params[:stacks], company_category: params[:company_category],user_id: current_user.id, category_name: params[:category_name])
+    @saved_search = SavedSearch.new(staff_size: params[:staff_size], stacks: params[:stacks], company_category: params[:company_category], user_id: current_user.id, category_name: params[:category_name])
     if @saved_search.save
       render json: @saved_search, status: :created, location: @saved_search
     else
@@ -25,6 +25,6 @@ class SavedSearchesController < ApplicationController
       @saved_search = SavedSearch.find(params[:id])
     end
     def saved_search_params
-      params.permit(:staff_size, :company_category, :stacks, :category_name)
+      params.permit(:id,:category_name,:staff_size, :company_category, :stacks)
     end
 end
