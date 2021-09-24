@@ -10,7 +10,7 @@
 companies_qty = 100
 users_qty= 10
 stack_by_user = 3
-stack_by_company = 3
+stack_by_company = [3,4,5,6,7,8]
 
 
 size = ["0-9", "10-49", "50-249", "250more"]
@@ -274,7 +274,7 @@ end
 end
 
 companies_qty.times do|i|
-  stack_by_company.times do 
+  stack_by_company.sample.times do 
   company_stack = CompaniesStack.create!(
     company_id: i+1,
     stack_id: Faker::Number.between(from: 1, to: 68)
