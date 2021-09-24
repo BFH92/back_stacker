@@ -39,7 +39,7 @@ In the future we want to build a solid platform for junior devs and companies to
   `rails s`
   to start the server
 
-The app's URL in your browser will be http://localhost:3000/
+The app's URL in your browser will be http://localhost:3000/. 
 You can find our front-end repo [here](https://github.com/BFH92/front_stacker).
 
 ### Production hosted on heroku:
