@@ -14,15 +14,7 @@ class CompaniesController < ApplicationController
       company_category_name = CompanyCategory.find(category_id).name
       company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks, category_name: company_category_name  )
       }
-      if current_user
-        render json:  @filtered_companies.as_json.first(20)
-      else
-        companies =[]
-        @filtered_companies.first(20).map{|company|
-          companies.push(company.except("email"))
-        }
-        render json:  companies
-      end
+      render json:  @filtered_companies.as_json.first(20)
   end
 
   def show
