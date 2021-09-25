@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #variables to config
-companies_qty = 1000
+companies_qty = 100
 users_qty= 10
 stack_by_user = 3
 stack_by_company = [3,4,5,6,7,8]
