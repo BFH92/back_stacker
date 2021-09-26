@@ -12,7 +12,7 @@ class SavedSearchesController < ApplicationController
     if @saved_search.save
       render json: @saved_search, status: :created, location: @saved_search
     else
-      render json: @saved_search.errors, status: :unprocessable_entity
+      render json: {errors:"une recherche similaire est déjà enregistré !"}, status: :unprocessable_entity
     end
   end
 
