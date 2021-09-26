@@ -1,5 +1,5 @@
 class Company < ApplicationRecord
-
+  after_create :welcome_send
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :jwt_authenticatable,:registerable,
@@ -58,5 +58,7 @@ def self.filtering(stacks, staff_size, categories, completed_companies)
   @filtered_companies = @categorized_companies
   
 end
-
+def welcome_send
+  CompanyMailer.welcome_email(self).deliver_now
+end
 end
