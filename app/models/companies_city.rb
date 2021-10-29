@@ -1,0 +1,2 @@
+class CompaniesCity < ApplicationRecord
+end

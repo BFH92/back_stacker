@@ -44,5 +44,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise-jwt'
 gem 'rack-cors'
 gem 'dotenv'
-
+gem 'json'
 gem 'mailjet'
+gem 'open-uri'
+gem 'watir'
+gem 'webdrivers'

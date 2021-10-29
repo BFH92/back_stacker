@@ -4,15 +4,16 @@ class CompaniesController < ApplicationController
   def index
     @short_list = params[:short_list]
     range_1 = @short_list.to_i*20
-    @completed_companies = Company.where.not(description:"null", name: "null", company_category_id:"null").offset(range_1).limit(100)
+    @completed_companies = Company.where.not(description:"null", name: "null").offset(range_1).limit(100)
     @stacks = params[:stack]
+    puts @stacks
     @staff_size = params[:staff_size]
     @categories = params[:categories]
     @filtered_companies = @completed_companies.filtering(@stacks,@staff_size,@categories,@completed_companies)
     @filtered_companies = @filtered_companies.map{|company|
-      category_id = company.company_category_id
-      company_category_name = CompanyCategory.find(category_id).name
-      company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks, category_name: company_category_name  )
+      #category_id = company.company_category_id
+      #company_category_name = CompanyCategory.find(category_id).name
+      company.as_json.merge(stacks: company.stacks, company_stacks: company.companies_stacks )
       }
       render json:  @filtered_companies.as_json.first(20)
   end

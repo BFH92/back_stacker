@@ -67,8 +67,10 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
+    childprocess (4.1.0)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    date (3.2.0)
     devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -102,6 +104,7 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
+    json (2.5.1)
     jwt (2.2.3)
     launchy (2.5.0)
       addressable (~> 2.7)
@@ -133,6 +136,10 @@ GEM
     nokogiri (1.12.4)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
     orm_adapter (0.5.0)
     pg (1.2.3)
     public_suffix (4.0.6)
@@ -174,6 +181,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    regexp_parser (2.1.1)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -182,6 +190,12 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.0.3)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -190,13 +204,17 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    stringio (3.0.1)
     table_print (1.5.7)
     thor (1.1.0)
+    time (0.2.0)
+      date
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    uri (0.11.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     warden-jwt_auth (0.5.0)
@@ -204,6 +222,13 @@ GEM
       dry-configurable (~> 0.9)
       jwt (~> 2.1)
       warden (~> 1.2)
+    watir (7.0.0)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (~> 4.0)
+    webdrivers (5.0.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -218,9 +243,11 @@ DEPENDENCIES
   devise-jwt
   dotenv
   faker
+  json
   letter_opener
   listen (~> 3.3)
   mailjet
+  open-uri
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
@@ -228,6 +255,8 @@ DEPENDENCIES
   spring
   table_print
   tzinfo-data
+  watir
+  webdrivers
 
 RUBY VERSION
    ruby 2.7.1p83

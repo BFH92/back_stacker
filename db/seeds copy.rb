@@ -7,8 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #variables to config
+
 require 'json'
-file = File.read('./db/data.json')
+file = File.read('./data.json')
 data_hash = JSON.parse(file)
 
 companies_qty = 12
@@ -142,7 +143,18 @@ company_categories.length.times do |i|
   )
 end
 
-
+companies_qty.times do 
+  company = Company.create!(
+    name: Faker::Company.name,
+    description: Faker::Lorem.paragraph(sentence_count: 3),
+    email: Faker::Internet.email,
+    github_link: "https://github.com/",
+    website_link: Faker::Internet.domain_name(domain: "supercompany"),
+    staff_size: size.sample,
+    is_it_recruiting: Faker::Boolean.boolean,
+    company_category_id: Faker::Number.between(from: 1, to: 5)
+  )
+end
 
 users_qty.times do 
   user = User.create!(
@@ -257,36 +269,21 @@ nocode_stacks.length.times do |i|
   )
 end
 
-#users_qty.times do |i|
-#  stack_by_user.times do 
-#  user_stack = UsersStack.create!(
-#    user_id: i+1,
-#    stack_id: Faker::Number.between(from: 1, to: 10)
-#  )
-#end
-#end
-
-
-data_hash.map do |data|
-  company = Company.create!(
-    name: data['company'],
-    email: Faker::Internet.email,
-    website_link: data['website'],
-    staff_size: size.sample,
-    is_it_recruiting: Faker::Boolean.boolean,
-    company_category_id: Faker::Number.between(from: 1, to: 5)
+users_qty.times do |i|
+  stack_by_user.times do 
+  user_stack = UsersStack.create!(
+    user_id: i+1,
+    stack_id: Faker::Number.between(from: 1, to: 10)
   )
 end
+end
 
+#companies_qty.times do|i|
+#  stack_by_company.sample.times do 
+#  company_stack = CompaniesStack.create!(
+#    company_id: i+1,
+#    stack_id: Faker::Number.between(from: 1, to: 68)
+#  )
+#end
 
-data_hash.map do|data|
-  data['stacks'].map do |stack|
-    begin
-    company_stack = CompaniesStack.create!(
-      company_id: Company.find_or_create_by(name:data['company']).id,
-      stack_id: Stack.find_or_create_by(name:stack).id
-    )
-    rescue
-    end
-  end
 end

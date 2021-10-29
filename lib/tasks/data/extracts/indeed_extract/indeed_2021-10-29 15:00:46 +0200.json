@@ -1,0 +1,2080 @@
+[
+  {
+    "name": "BNP Paribas",
+    "city": "Nanterre",
+    "stacks": ["pytorch", "tensorflow", "trac", "python"],
+    "latitude": 48.9,
+    "longitude": 2.2
+  },
+  {
+    "name": "FONDATION SANTE SERVICE",
+    "city": "Levallois-Perret",
+    "stacks": ["sql", ".net", "git"],
+    "latitude": 48.9,
+    "longitude": 2.2833
+  },
+  {
+    "name": "LEA",
+    "city": "Paris",
+    "stacks": [
+      "node",
+      "javascript",
+      "elasticsearch",
+      "redis",
+      "typescript",
+      "ruby",
+      "python",
+      "c++",
+      "java",
+      "c#"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "IMPACT SALES MARKETING",
+    "city": "Levallois-Perret",
+    "stacks": ["excel", "sql"],
+    "latitude": 48.9,
+    "longitude": 2.28333
+  },
+  {
+    "name": "LEA",
+    "city": "Montpellier",
+    "stacks": [
+      "node",
+      "javascript",
+      "elasticsearch",
+      "redis",
+      "typescript",
+      "ruby",
+      "python",
+      "c++",
+      "java",
+      "c#"
+    ],
+    "latitude": 43.6,
+    "longitude": 3.8833
+  },
+  {
+    "name": "CGI Inc",
+    "city": "Paris",
+    "stacks": ["tableau", "snowflake", "kafka", "azure", "aws", "hadoop"],
+    "latitude": 48.841934,
+    "longitude": 2.300042
+  },
+  {
+    "name": "Cegedim",
+    "city": "Boulogne-Billancourt",
+    "stacks": ["flux", "excel"],
+    "latitude": 48.8333,
+    "longitude": 2.25
+  },
+  {
+    "name": "Eurostaff group SAS",
+    "city": "Paris",
+    "stacks": ["kotlin", "flow", "sql", "python", "aws", "java", "unity"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Freelance.com",
+    "city": "Paris",
+    "stacks": ["python", "r", "git", "sql", "aws", "java", "unity"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "LEA",
+    "city": "Montpellier",
+    "stacks": ["javascript", "react", "angular", "css", "scss", "flutter"],
+    "latitude": 43.6,
+    "longitude": 3.8833
+  },
+  {
+    "name": "IMPACT SALES MARKETING",
+    "city": "Paris",
+    "stacks": ["excel", "sql"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "EXMC",
+    "city": "Bois-Colombes",
+    "stacks": ["oracle", "sql", "python", "aws", "java", "unity"],
+    "latitude": 48.91667,
+    "longitude": 2.26667
+  },
+  {
+    "name": "Work Hunter",
+    "city": "Paris 17e",
+    "stacks": ["symfony", "javascript", "react", "elm", "git"],
+    "latitude": 48.8835,
+    "longitude": 2.3219
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "VINCI",
+    "city": "Cluses",
+    "stacks": ["excel", "sap"],
+    "latitude": 46.06251,
+    "longitude": 6.57497
+  },
+  {
+    "name": "Amazon EU SARL (FR)",
+    "city": "Courbevoie",
+    "stacks": ["aws", "oracle", "teradata", "snowflake", "sql", "python"],
+    "latitude": 48.89672,
+    "longitude": 2.25666
+  },
+  {
+    "name": "Pickmeup",
+    "city": "Paris",
+    "stacks": ["python", "go", "bash", "sql", "docker", "aws", "java", "unity"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "OTO TECHNOLOGY",
+    "city": "Paris 8e",
+    "stacks": [
+      "symfony",
+      "php",
+      "javascript",
+      "react",
+      "html",
+      "css",
+      "twig",
+      "git",
+      "webpack",
+      "wordpress",
+      "prestashop"
+    ],
+    "latitude": 48.881172,
+    "longitude": 2.325271
+  },
+  {
+    "name": "Eurostaff group SAS",
+    "city": "Paris",
+    "stacks": [
+      "ruby",
+      "rails",
+      "python",
+      "docker",
+      "kubernetes",
+      "sql",
+      "aws",
+      "java",
+      "unity"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Intelcia",
+    "city": "Nanterre",
+    "stacks": ["python", "r"],
+    "latitude": 48.9,
+    "longitude": 2.2
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": [
+      "c#",
+      "meteor",
+      "orchestra",
+      "dataiku",
+      "sql",
+      "javascript",
+      "css"
+    ],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Thales Group",
+    "city": "Sophia Antipolis",
+    "stacks": ["kubernetes", "docker", "java"],
+    "latitude": 43.62402,
+    "longitude": 7.04189
+  },
+  {
+    "name": "My PepIT",
+    "city": "Paris 10e",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 48.8709,
+    "longitude": 2.3561
+  },
+  {
+    "name": "Wetium",
+    "city": "Meudon",
+    "stacks": ["node", "javascript", "apigee", "nest", "aws", "sql"],
+    "latitude": 48.81667,
+    "longitude": 2.23333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["mongodb", "c++", "java", "sql", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "flux", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "BNP Paribas",
+    "city": "Pantin",
+    "stacks": ["excel", "alteryx", "trac"],
+    "latitude": 48.892235,
+    "longitude": 2.407601
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", "python", "sql"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "HighCo Box",
+    "city": "Paris 9e",
+    "stacks": [
+      "box",
+      "sql",
+      "mysql",
+      "git",
+      "html",
+      "javascript",
+      "typescript",
+      ".net",
+      "c#",
+      "php",
+      "css"
+    ],
+    "latitude": 48.87781,
+    "longitude": 2.33425
+  },
+  {
+    "name": "NEURONES IT",
+    "city": "Nanterre",
+    "stacks": [
+      "c",
+      "c++",
+      "java",
+      "shell",
+      "git",
+      "arm",
+      "jira",
+      "confluence",
+      "bitbucket",
+      "sql",
+      "python",
+      "aws",
+      "unity"
+    ],
+    "latitude": 48.9,
+    "longitude": 2.2
+  },
+  {
+    "name": "LEA",
+    "city": "Paris",
+    "stacks": ["javascript", "react", "angular", "css", "scss", "flutter"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "LEA",
+    "city": "Montpellier",
+    "stacks": [
+      "node",
+      "javascript",
+      "elasticsearch",
+      "redis",
+      "typescript",
+      "ruby",
+      "python",
+      "c++",
+      "java",
+      "c#"
+    ],
+    "latitude": 43.6,
+    "longitude": 3.8833
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["shell", "git", "jenkins", "oracle", "sql", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "CGI Inc",
+    "city": "Clermont-Ferrand",
+    "stacks": [
+      "coda",
+      "sql",
+      "python",
+      "r",
+      "azure",
+      "microstrategy",
+      "tableau",
+      "oracle"
+    ],
+    "latitude": 45.759914,
+    "longitude": 3.128484
+  },
+  {
+    "name": "OCTOPUS COMPUTER ASSOCIATES",
+    "city": "Massy",
+    "stacks": [
+      "terraform",
+      "ansible",
+      "git",
+      "java",
+      "prometheus",
+      "shell",
+      "perl",
+      "python",
+      "jenkins",
+      "sql",
+      "aws",
+      "unity"
+    ],
+    "latitude": 48.73333,
+    "longitude": 2.28333
+  },
+  {
+    "name": "Volvo Group",
+    "city": "Lyon",
+    "stacks": ["sql", "excel"],
+    "latitude": 45.776413,
+    "longitude": 4.798036
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "flux", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "NEURONES IT",
+    "city": "Nanterre",
+    "stacks": [
+      "debian",
+      "jenkins",
+      "shell",
+      "git",
+      "docker",
+      "influxdb",
+      "grafana",
+      "gatling",
+      "jmeter",
+      "java",
+      "arm",
+      "jira",
+      "confluence",
+      "bitbucket",
+      "sql",
+      "python",
+      "aws",
+      "unity"
+    ],
+    "latitude": 48.9,
+    "longitude": 2.2
+  },
+  {
+    "name": "HitBiz",
+    "city": "Guyancourt",
+    "stacks": [
+      "php",
+      "java",
+      "azure",
+      "powershell",
+      "shell",
+      "python",
+      "centos",
+      "git",
+      "jenkins",
+      "gitlab",
+      "docker",
+      "kubernetes",
+      "ansible",
+      "sql",
+      "aws",
+      "unity"
+    ],
+    "latitude": 48.76667,
+    "longitude": 2.06667
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Club Med",
+    "city": "La Villette",
+    "stacks": ["r", "excel", "sketch"],
+    "latitude": 48.88333,
+    "longitude": 2.36667
+  },
+  {
+    "name": "Homa Games",
+    "city": "Paris 10e",
+    "stacks": ["less", "excel"],
+    "latitude": 48.873234,
+    "longitude": 2.354801
+  },
+  {
+    "name": "SIKIA",
+    "city": "Clichy",
+    "stacks": ["react", "javascript"],
+    "latitude": 48.9,
+    "longitude": 2.3
+  },
+  {
+    "name": "Waeg, an IBM Company",
+    "city": "Paris",
+    "stacks": ["salesforce", "trac", "jira", "confluence", "smartsheet"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": [
+      "c#",
+      ".net",
+      "sql",
+      "azure",
+      "resharper",
+      "stylecop",
+      "sonarqube"
+    ],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Logic'All sarl",
+    "city": "Châteaubernard",
+    "stacks": ["windev", "sql"],
+    "latitude": 45.68703,
+    "longitude": -0.309569
+  },
+  {
+    "name": "DOEO",
+    "city": "Saint-Julien-de-Peyrolas",
+    "stacks": [
+      "php",
+      "symfony",
+      "node",
+      "javascript",
+      "kubernetes",
+      "postgresql",
+      "docker",
+      "git",
+      "gitlab",
+      "sentry",
+      "slack"
+    ],
+    "latitude": 44.274837,
+    "longitude": 4.572868
+  },
+  {
+    "name": "Work Hunter",
+    "city": "Paris 17e",
+    "stacks": [
+      "ansible",
+      "docker",
+      "go",
+      "rust",
+      "python",
+      "c",
+      "gitlab",
+      "kubernetes",
+      "jenkins",
+      "sonarqube"
+    ],
+    "latitude": 48.8835,
+    "longitude": 2.3219
+  },
+  {
+    "name": "My PepIT",
+    "city": "Marseille",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 43.3,
+    "longitude": 5.4
+  },
+  {
+    "name": "ADEO Services",
+    "city": "Ronchin",
+    "stacks": [
+      "node",
+      "javascript",
+      "nest",
+      "kafka",
+      "sql",
+      "nosql",
+      "ansible",
+      "terraform",
+      "kubernetes",
+      "openshift",
+      "docker",
+      "compose",
+      "git",
+      "sap",
+      "flux"
+    ],
+    "latitude": 50.6053,
+    "longitude": 3.10415
+  },
+  {
+    "name": "Quadra Informatique",
+    "city": "Templemars",
+    "stacks": [
+      "php",
+      "mysql",
+      "javascript",
+      "html",
+      "css",
+      "flux",
+      "sugarcrm",
+      "docker",
+      "compose",
+      "elk"
+    ],
+    "latitude": 50.56667,
+    "longitude": 3.05
+  },
+  {
+    "name": "SERMES",
+    "city": "Strasbourg",
+    "stacks": ["sql", "php", "excel", "javascript", "css"],
+    "latitude": 48.554283,
+    "longitude": 7.741159
+  },
+  {
+    "name": "Rhapsody Recrutement",
+    "city": "Paris",
+    "stacks": ["php", "c", "sql", "mysql", "javascript", "jquery"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Deleev",
+    "city": "Paris",
+    "stacks": [
+      "python",
+      "javascript",
+      "django",
+      "git",
+      "sql",
+      "docker",
+      "compose",
+      "postgresql"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "DYNAMIS RH",
+    "city": "Meudon",
+    "stacks": ["react", "css", "typescript"],
+    "latitude": 48.81667,
+    "longitude": 2.23333
+  },
+  {
+    "name": "Thales Group",
+    "city": "Vélizy-Villacoublay",
+    "stacks": ["java", "sql", "python", "javascript", "c#", "c++", "prototype"],
+    "latitude": 48.8,
+    "longitude": 2.18333
+  },
+  {
+    "name": "My PepIT",
+    "city": "Lille",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 50.63333,
+    "longitude": 3.06667
+  },
+  {
+    "name": "Syment",
+    "city": "Bordeaux",
+    "stacks": ["html", "css", "javascript", "react", "redux"],
+    "latitude": 44.83333,
+    "longitude": -0.56667
+  },
+  {
+    "name": "Hobson Prior",
+    "city": "Paris",
+    "stacks": ["trac", "electron"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Club Freelance",
+    "city": "Nogent-sur-Seine",
+    "stacks": ["flux", "azure", "sql", "python", "aws", "java", "unity"],
+    "latitude": 48.48333,
+    "longitude": 3.5
+  },
+  {
+    "name": "Rhapsody Recrutement",
+    "city": "Orléans",
+    "stacks": ["php", "c", "sql", "mysql", "javascript", "jquery"],
+    "latitude": 47.91667,
+    "longitude": 1.9
+  },
+  {
+    "name": "Innoval",
+    "city": "Noyal-sur-Vilaine",
+    "stacks": ["tableau", "talend", "sql", "oracle"],
+    "latitude": 48.1167,
+    "longitude": -1.5167
+  },
+  {
+    "name": "Cash Flow Positif",
+    "city": "Paris 8e",
+    "stacks": ["flow", "symfony", "sql", "git", "github"],
+    "latitude": 48.87036,
+    "longitude": 2.308328
+  },
+  {
+    "name": "Espace Freelance",
+    "city": "Villeneuve-d'Ascq",
+    "stacks": [
+      "javascript",
+      "html",
+      "css",
+      "java",
+      "sql",
+      "python",
+      "aws",
+      "unity"
+    ],
+    "latitude": 50.61669,
+    "longitude": 3.16664
+  },
+  {
+    "name": "Synaltic",
+    "city": "Vincennes",
+    "stacks": ["kafka", "talend", "compose", "flux", "docker", "elasticsearch"],
+    "latitude": 48.85,
+    "longitude": 2.43333
+  },
+  {
+    "name": "SIRVA",
+    "city": "Nanterre",
+    "stacks": ["excel", "outlook"],
+    "latitude": 48.9,
+    "longitude": 2.2
+  },
+  {
+    "name": "Electrolux",
+    "city": "Saint-Denis",
+    "stacks": ["excel", "go"],
+    "latitude": 48.93333,
+    "longitude": 2.36667
+  },
+  {
+    "name": "Thales Group",
+    "city": "Brest",
+    "stacks": ["java", "python", "elk", "git"],
+    "latitude": 48.4,
+    "longitude": -4.48333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "java", "python", "sql", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Keyrus France",
+    "city": "Rennes",
+    "stacks": [
+      "sap",
+      "microstrategy",
+      "talend",
+      "qlikview",
+      "tableau",
+      "openstreetmap"
+    ],
+    "latitude": 48.10508,
+    "longitude": -1.7018
+  },
+  {
+    "name": "My PepIT",
+    "city": "Lyon",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "Innoval",
+    "city": "Noyal-sur-Vilaine",
+    "stacks": [
+      "python",
+      "angular",
+      "css",
+      "sql",
+      "postgresql",
+      "oracle",
+      "talend",
+      "php",
+      "windev",
+      "kubernetes",
+      "docker"
+    ],
+    "latitude": 48.1167,
+    "longitude": -1.5167
+  },
+  {
+    "name": "Thales Group",
+    "city": "Gennevilliers",
+    "stacks": ["jira", "flux"],
+    "latitude": 48.93333,
+    "longitude": 2.3
+  },
+  {
+    "name": "Thales Group",
+    "city": "Élancourt",
+    "stacks": [
+      "java",
+      "angular",
+      "html",
+      "css",
+      "typescript",
+      "javascript",
+      "sql",
+      "git"
+    ],
+    "latitude": 48.78333,
+    "longitude": 1.95
+  },
+  {
+    "name": "COMPAGNIE FIDUCIAIRE",
+    "city": "Bordeaux",
+    "stacks": ["flux", "sql", "azure", "postgresql"],
+    "latitude": 44.8333,
+    "longitude": -0.5667
+  },
+  {
+    "name": "Decathlon",
+    "city": "Croix",
+    "stacks": [
+      "kong",
+      "flux",
+      "spring",
+      "postgresql",
+      "kafka",
+      "kubernetes",
+      "aws",
+      "jenkins",
+      "docker",
+      "github",
+      "java",
+      "struts"
+    ],
+    "latitude": 50.6667,
+    "longitude": 3.15
+  },
+  {
+    "name": "LEA",
+    "city": "Montpellier",
+    "stacks": ["javascript", "react", "angular", "css", "scss", "flutter"],
+    "latitude": 43.6,
+    "longitude": 3.8833
+  },
+  {
+    "name": "My PepIT",
+    "city": "Rennes",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 48.08333,
+    "longitude": -1.68333
+  },
+  {
+    "name": "Thales Group",
+    "city": "Sophia Antipolis",
+    "stacks": ["python", "kubernetes", "java", "tensorflow"],
+    "latitude": 43.62402,
+    "longitude": 7.04189
+  },
+  {
+    "name": "ACOEM FRANCE",
+    "city": "Limonest",
+    "stacks": ["matlab", "coda"],
+    "latitude": 45.810146,
+    "longitude": 4.773575
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "html", "css", "javascript", "angular"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Jems Group",
+    "city": "Paris",
+    "stacks": ["lumen", "testrail", "selenium", "sql"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "OCTOPUS COMPUTER ASSOCIATES",
+    "city": "Massy",
+    "stacks": [
+      "terraform",
+      "ansible",
+      "git",
+      "java",
+      "prometheus",
+      "shell",
+      "perl",
+      "python",
+      "jenkins",
+      "react",
+      "tibco",
+      "sql"
+    ],
+    "latitude": 48.73333,
+    "longitude": 2.28333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["javascript", "tibco", "nats", "c#", "nunit", "jenkins"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "NUMALLIANCE",
+    "city": "Saint-Michel-sur-Meurthe",
+    "stacks": ["c++", "coda", "git", "opengl", "opencv"],
+    "latitude": 48.3167,
+    "longitude": 6.9
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["sql", "java", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "My PepIT",
+    "city": "Toulouse",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Meedz",
+    "city": "Lille",
+    "stacks": [
+      "react",
+      "javascript",
+      "html",
+      "css",
+      "jquery",
+      "backbone",
+      "handlebars"
+    ],
+    "latitude": 50.63333,
+    "longitude": 3.06667
+  },
+  {
+    "name": "Link Consulting",
+    "city": "Toulouse",
+    "stacks": [
+      "sql",
+      "java",
+      "spring",
+      "angular",
+      "intellij",
+      "testlink",
+      "jira",
+      "confluence",
+      "oracle",
+      "mysql",
+      "react",
+      "tibco",
+      "python"
+    ],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Espace Freelance",
+    "city": "Villeneuve-d'Ascq",
+    "stacks": ["sql", "react", "tibco", "python"],
+    "latitude": 50.61669,
+    "longitude": 3.16664
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris",
+    "stacks": [
+      "solidity",
+      "angular",
+      "node",
+      "javascript",
+      "python",
+      "ethereum",
+      "bitcoin",
+      "c#"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "My PepIT",
+    "city": "Bordeaux",
+    "stacks": ["react", "javascript", "typescript"],
+    "latitude": 44.83333,
+    "longitude": -0.56667
+  },
+  {
+    "name": "Decathlon",
+    "city": "Croix",
+    "stacks": [
+      "javascript",
+      "aws",
+      "azure",
+      "css",
+      "angular",
+      "react",
+      "docker",
+      "github"
+    ],
+    "latitude": 50.6667,
+    "longitude": 3.15
+  },
+  {
+    "name": "LeHibou",
+    "city": "Paris",
+    "stacks": ["aws", "react", "tibco", "sql", "python"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Orange",
+    "city": "Châtillon",
+    "stacks": ["leaflet", "sql", "nosql", "python", "tensorflow"],
+    "latitude": 48.8,
+    "longitude": 2.2833
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "winforms", "git"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Rhapsody Recrutement",
+    "city": "Bourges",
+    "stacks": ["php", "c", "sql", "mysql", "javascript", "jquery"],
+    "latitude": 47.08333,
+    "longitude": 2.4
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "excel", "jira", "git", "jenkins", "artifactory", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Thales Group",
+    "city": "Cannes",
+    "stacks": ["docker", "kubernetes"],
+    "latitude": 43.55,
+    "longitude": 7.01667
+  },
+  {
+    "name": "HighCo Nifty",
+    "city": "Aix-en-Provence",
+    "stacks": [
+      "php",
+      "symfony",
+      "sql",
+      "javascript",
+      "react",
+      "elasticsearch",
+      "git",
+      "aws"
+    ],
+    "latitude": 43.5283,
+    "longitude": 5.4497
+  },
+  {
+    "name": "Volvo Group",
+    "city": "Lyon",
+    "stacks": ["flux", "excel", "sql"],
+    "latitude": 45.776413,
+    "longitude": 4.798036
+  },
+  {
+    "name": "Market Maker",
+    "city": "Dardilly",
+    "stacks": ["excel", "prestashop"],
+    "latitude": 45.8,
+    "longitude": 4.7333
+  },
+  {
+    "name": "EDF Renewables",
+    "city": "Colombiers",
+    "stacks": ["coda", ".net", "sql", "c#", "angular", "github"],
+    "latitude": 43.31667,
+    "longitude": 3.13333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "sql", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Alter Way",
+    "city": "Paris",
+    "stacks": [
+      "azure",
+      "aws",
+      "scaleway",
+      "terraform",
+      "gitlab",
+      "ansible",
+      "kubernetes",
+      "docker",
+      "git",
+      "mysql",
+      "postgresql",
+      "mongodb",
+      "elasticsearch"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "sql", "nhibernate", "foundation"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Kiwi Intérim",
+    "city": "Blanquefort",
+    "stacks": [
+      "python",
+      "c++",
+      "php",
+      "javascript",
+      "docker",
+      "kubernetes",
+      "sql",
+      "proxmox",
+      "lxc"
+    ],
+    "latitude": 44.9167,
+    "longitude": -0.6333
+  },
+  {
+    "name": "Volvo Group",
+    "city": "Lyon",
+    "stacks": ["flux", "excel", "sql"],
+    "latitude": 45.776413,
+    "longitude": 4.798036
+  },
+  {
+    "name": "Market Maker",
+    "city": "Dardilly",
+    "stacks": ["excel", "prestashop"],
+    "latitude": 45.8,
+    "longitude": 4.7333
+  },
+  {
+    "name": "INSEAD",
+    "city": "Fontainebleau",
+    "stacks": ["flow", "salesforce", "foundation"],
+    "latitude": 48.4,
+    "longitude": 2.7
+  },
+  {
+    "name": "EDF Renewables",
+    "city": "Colombiers",
+    "stacks": ["coda", ".net", "sql", "c#", "angular", "github"],
+    "latitude": 43.31667,
+    "longitude": 3.13333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "sql", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Alter Way",
+    "city": "Paris",
+    "stacks": [
+      "azure",
+      "aws",
+      "scaleway",
+      "terraform",
+      "gitlab",
+      "ansible",
+      "kubernetes",
+      "docker",
+      "git",
+      "mysql",
+      "postgresql",
+      "mongodb",
+      "elasticsearch"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "sql", "nhibernate", "foundation"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Kiwi Intérim",
+    "city": "Blanquefort",
+    "stacks": [
+      "python",
+      "c++",
+      "php",
+      "javascript",
+      "docker",
+      "kubernetes",
+      "sql",
+      "proxmox",
+      "lxc"
+    ],
+    "latitude": 44.9167,
+    "longitude": -0.6333
+  },
+  {
+    "name": "Thales Group",
+    "city": "Toulouse",
+    "stacks": [
+      "python",
+      "sql",
+      "excel",
+      "azure",
+      "gitlab",
+      "salesforce",
+      "sap",
+      "retrofit"
+    ],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "alteca",
+    "city": "Nantes",
+    "stacks": [
+      "gitlab",
+      "docker",
+      "maven",
+      "java",
+      "groovy",
+      "node",
+      "javascript",
+      "arm"
+    ],
+    "latitude": 47.21725,
+    "longitude": -1.55336
+  },
+  {
+    "name": "Crédit Agricole Assurances",
+    "city": "Paris",
+    "stacks": ["sketch", "kong"],
+    "latitude": 48.841522,
+    "longitude": 2.317832
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", "principle", ".net", "javascript"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "excel", "sql", "github", "azure"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["python", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "Keyrus France",
+    "city": "Nantes",
+    "stacks": [
+      "flux",
+      "snowflake",
+      "talend",
+      "sap",
+      "qlikview",
+      "tableau",
+      "openstreetmap"
+    ],
+    "latitude": 47.274483,
+    "longitude": -1.510329
+  },
+  {
+    "name": "Sept Lieues",
+    "city": "Clamart",
+    "stacks": ["c++", "python", "java"],
+    "latitude": 48.8,
+    "longitude": 2.26667
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c#", ".net", "hashicorp", "git"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "TeamViewer GmbH",
+    "city": "Paris 9e",
+    "stacks": ["box", "foundation", "segment", "principle"],
+    "latitude": 48.8718,
+    "longitude": 2.3399
+  },
+  {
+    "name": "Sopra Steria",
+    "city": "Lyon",
+    "stacks": ["java", "intellij", "git", "maven", "oracle", "sql"],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "Work Hunter",
+    "city": "Paris 17e",
+    "stacks": [
+      "elasticsearch",
+      "sql",
+      "hadoop",
+      "impala",
+      "presto",
+      "postgresql",
+      "python",
+      "docker",
+      "kubernetes",
+      "dataiku",
+      "flow",
+      "kubeflow"
+    ],
+    "latitude": 48.8835,
+    "longitude": 2.3219
+  },
+  {
+    "name": "COMPAGNIE FIDUCIAIRE",
+    "city": "Bordeaux",
+    "stacks": ["trac", "javascript"],
+    "latitude": 44.8333,
+    "longitude": -0.5667
+  },
+  {
+    "name": "Grand Lyon Métropole",
+    "city": "Lyon",
+    "stacks": [
+      "flux",
+      "typescript",
+      "nest",
+      "node",
+      "javascript",
+      "python",
+      "react",
+      "angular",
+      "nosql",
+      "mongodb",
+      "docker",
+      "compose",
+      "gitlab"
+    ],
+    "latitude": 45.75852,
+    "longitude": 4.85227
+  },
+  {
+    "name": "Legal Pilot",
+    "city": "Lyon",
+    "stacks": ["wordpress", "typescript", "angular", "prototype"],
+    "latitude": 45.766388,
+    "longitude": 4.855715
+  },
+  {
+    "name": "Thales Group",
+    "city": "Cannes",
+    "stacks": [
+      "jenkins",
+      "git",
+      "maven",
+      "ansible",
+      "java",
+      "angular",
+      "python",
+      "compose"
+    ],
+    "latitude": 43.55,
+    "longitude": 7.01667
+  },
+  {
+    "name": "SOLLAN FRANCE",
+    "city": "Levallois-Perret",
+    "stacks": ["uipath", "blueprism"],
+    "latitude": 48.898804,
+    "longitude": 2.289552
+  },
+  {
+    "name": "Vision Systems",
+    "city": "Brignais",
+    "stacks": ["c", "c++", "qt"],
+    "latitude": 45.66667,
+    "longitude": 4.75
+  },
+  {
+    "name": "Avanade",
+    "city": "Paris",
+    "stacks": ["linear", "box"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Thales Group",
+    "city": "Toulouse",
+    "stacks": ["nifi", "git", "jenkins"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Thales Group",
+    "city": "Aix-en-Provence",
+    "stacks": ["spring", "hibernate", "javascript", "css", "angular", "aws"],
+    "latitude": 43.5283,
+    "longitude": 5.44973
+  },
+  {
+    "name": "Thales Group",
+    "city": "Aix-en-Provence",
+    "stacks": ["spring", "hibernate", "javascript", "css", "angular", "aws"],
+    "latitude": 43.5283,
+    "longitude": 5.44973
+  },
+  {
+    "name": "STMicroelectronics",
+    "city": "Grenoble",
+    "stacks": ["go", "medium", "kong"],
+    "latitude": 45.203655,
+    "longitude": 5.696251
+  },
+  {
+    "name": "CMA CGM",
+    "city": "Marseille",
+    "stacks": ["flow", "excel"],
+    "latitude": 43.31509,
+    "longitude": 5.365872
+  },
+  {
+    "name": "Orange France",
+    "city": "Arcueil",
+    "stacks": ["leaflet", "php", "symfony", "mysql", "java", "struts"],
+    "latitude": 48.8,
+    "longitude": 2.3333
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris 3e",
+    "stacks": ["c++", "sql", "java", "python", "c#"],
+    "latitude": 48.8637,
+    "longitude": 2.3615
+  },
+  {
+    "name": "OSENGO",
+    "city": "Castres",
+    "stacks": ["php", "html", "css", "sql", "javascript"],
+    "latitude": 43.6,
+    "longitude": 2.25
+  },
+  {
+    "name": "OSENGO",
+    "city": "Toulouse",
+    "stacks": ["php", "html", "css", "sql", "javascript"],
+    "latitude": 43.6043,
+    "longitude": 1.4437
+  },
+  {
+    "name": "VERDIÉ VOYAGES",
+    "city": "Rodez",
+    "stacks": [
+      "react",
+      "javascript",
+      "twig",
+      "sass",
+      "vuetify",
+      "php",
+      "symfony",
+      "mysql",
+      "graphql",
+      "sql",
+      "git",
+      "gitlab",
+      "phpstorm",
+      "docker",
+      "wrike",
+      "figma",
+      "balsamiq",
+      "html",
+      "css"
+    ],
+    "latitude": 44.360546,
+    "longitude": 2.556687
+  },
+  {
+    "name": "CGI Inc",
+    "city": "Paris",
+    "stacks": [
+      "java",
+      "html",
+      "css",
+      "thymeleaf",
+      "sql",
+      "javascript",
+      "junit",
+      "git",
+      "jenkins",
+      "sonarqube"
+    ],
+    "latitude": 48.841934,
+    "longitude": 2.300042
+  },
+  {
+    "name": "DUCASSE Paris",
+    "city": "Issy-les-Moulineaux",
+    "stacks": ["salesforce", "sendinblue", "excel", "html"],
+    "latitude": 48.8167,
+    "longitude": 2.2667
+  },
+  {
+    "name": "Thales Group",
+    "city": "Toulouse",
+    "stacks": ["git", "jenkins"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Acii",
+    "city": "Nantes",
+    "stacks": [
+      "java",
+      "angular",
+      "html",
+      "spring",
+      "jpa",
+      "jenkins",
+      "maven",
+      "sql",
+      "css",
+      "git"
+    ],
+    "latitude": 47.2173,
+    "longitude": -1.5534
+  },
+  {
+    "name": "XSplit",
+    "city": "Télétravail",
+    "stacks": ["php", "aws", "excel"],
+    "latitude": 25.0,
+    "longitude": -40.0
+  },
+  {
+    "name": "Azeo Talents & Technology",
+    "city": "Paris",
+    "stacks": ["linear", "principle"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "CONSULT IT",
+    "city": "Grenoble",
+    "stacks": ["python", "salesforce", "react", "tibco", "sql"],
+    "latitude": 45.16667,
+    "longitude": 5.71667
+  },
+  {
+    "name": "Volvo Group",
+    "city": "Lyon",
+    "stacks": ["python", "excel", "qlikview", "foundation"],
+    "latitude": 45.776413,
+    "longitude": 4.798036
+  },
+  {
+    "name": "Thales Group",
+    "city": "Nantes",
+    "stacks": ["php", "spring", "html", "javascript"],
+    "latitude": 47.21725,
+    "longitude": -1.55336
+  },
+  {
+    "name": "Keyrus France",
+    "city": "Aix-en-Provence",
+    "stacks": ["oracle", "obiee", "openstreetmap"],
+    "latitude": 43.48894,
+    "longitude": 5.341191
+  },
+  {
+    "name": "Thales Group",
+    "city": "Cannes",
+    "stacks": ["c++", "java", "python"],
+    "latitude": 43.55,
+    "longitude": 7.01667
+  },
+  {
+    "name": "OCSI",
+    "city": "Paris",
+    "stacks": [
+      "microstrategy",
+      "sql",
+      "salesforce",
+      "react",
+      "tibco",
+      "python"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "OSENGO",
+    "city": "Carcassonne",
+    "stacks": ["php", "html", "css", "sql", "javascript"],
+    "latitude": 43.2167,
+    "longitude": 2.35
+  },
+  {
+    "name": "CELAD",
+    "city": "Valbonne",
+    "stacks": ["perl", "c", "c++", "python"],
+    "latitude": 43.624805,
+    "longitude": 7.04957
+  },
+  {
+    "name": "ilem Group",
+    "city": "Saint-Étienne",
+    "stacks": ["javascript", "java", "python", "oracle"],
+    "latitude": 45.43333,
+    "longitude": 4.4
+  },
+  {
+    "name": "Thales Group",
+    "city": "Toulouse",
+    "stacks": ["git", "jenkins"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Albéa",
+    "city": "Gennevilliers",
+    "stacks": ["sap", "excel", "less"],
+    "latitude": 48.93333,
+    "longitude": 2.3
+  },
+  {
+    "name": "STMicroelectronics",
+    "city": "Rennes",
+    "stacks": [
+      "go",
+      "medium",
+      "kong",
+      "c",
+      "c++",
+      "arm",
+      "python",
+      "perl",
+      "git",
+      "gerrit",
+      "github",
+      "eclipse"
+    ],
+    "latitude": 48.087475,
+    "longitude": -1.665302
+  },
+  {
+    "name": "Avanade",
+    "city": "Paris",
+    "stacks": ["linear", "principle"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "NEURONES IT",
+    "city": "Paris",
+    "stacks": ["salesforce", "react", "tibco", "sql", "python"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Jems Group",
+    "city": "Lyon",
+    "stacks": ["lumen", "testrail", "selenium", "sql"],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "ActinG RH",
+    "city": "Brignais",
+    "stacks": ["prototype", "sketch", "invision", "figma", "html", "css"],
+    "latitude": 45.66667,
+    "longitude": 4.75
+  },
+  {
+    "name": "Orange France",
+    "city": "Lyon",
+    "stacks": ["leaflet", "excel", "klaxoon"],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "HitBiz",
+    "city": "Toulouse",
+    "stacks": [
+      "java",
+      "angular",
+      "spring",
+      "typescript",
+      "git",
+      "gerrit",
+      "jenkins",
+      "protractor",
+      "artifactory",
+      "ansible",
+      "salesforce",
+      "react",
+      "tibco",
+      "sql",
+      "python"
+    ],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "Thales Group",
+    "city": "Toulouse",
+    "stacks": ["segment", "git", "jenkins"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "SIKIA",
+    "city": "Paris 16e",
+    "stacks": ["sql", "flux", "git", "azure"],
+    "latitude": 48.8637,
+    "longitude": 2.2769
+  },
+  {
+    "name": "Hesperie Conseil",
+    "city": "Paris",
+    "stacks": ["c++", "c#", "oracle", "hadoop", "phoenix"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "YNCREA OUEST",
+    "city": "Carquefou",
+    "stacks": ["kafka", "kubernetes", "hadoop", "sql", "nosql"],
+    "latitude": 47.3,
+    "longitude": -1.5
+  },
+  {
+    "name": "Sopra Steria",
+    "city": "Aix-en-Provence",
+    "stacks": [
+      "angular",
+      "javascript",
+      "aws",
+      "java",
+      ".net",
+      "openshift",
+      "azure",
+      "ovh"
+    ],
+    "latitude": 43.5283,
+    "longitude": 5.44973
+  },
+  {
+    "name": "LeHibou",
+    "city": "Toulouse",
+    "stacks": ["aws", "salesforce", "react", "tibco", "sql", "python"],
+    "latitude": 43.60426,
+    "longitude": 1.44367
+  },
+  {
+    "name": "4 CONNECT",
+    "city": "Marseille",
+    "stacks": ["cisco", "wazo"],
+    "latitude": 43.310764,
+    "longitude": 5.36665
+  },
+  {
+    "name": "IHS Markit",
+    "city": "Paris",
+    "stacks": ["supervisor", "excel", "alteryx", "tableau", "trac"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "L2C",
+    "city": "Paris",
+    "stacks": [
+      "python",
+      "react",
+      "redux",
+      "django",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "javascript",
+      "websocket",
+      "git",
+      "docker",
+      "ansible",
+      "terraform",
+      "aws",
+      "azure",
+      "php",
+      "ruby",
+      "java",
+      "c#",
+      "c",
+      "c++"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Groupe La Centrale",
+    "city": "Paris 9e",
+    "stacks": [
+      "aws",
+      "javascript",
+      "python",
+      "ruby",
+      "php",
+      "java",
+      "c#",
+      "c",
+      "c++"
+    ],
+    "latitude": 48.8718,
+    "longitude": 2.3399
+  },
+  {
+    "name": "Novencia",
+    "city": "Paris",
+    "stacks": ["r", "python", "sql", "java"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "OCP",
+    "city": "Saint-Ouen",
+    "stacks": ["flux", "c++"],
+    "latitude": 48.9071,
+    "longitude": 2.31879
+  },
+  {
+    "name": "Enginn Technologies",
+    "city": "Ivry-sur-Seine",
+    "stacks": [
+      "python",
+      "sql",
+      "tensorflow",
+      "pytorch",
+      "keras",
+      "pandas",
+      "unity"
+    ],
+    "latitude": 48.817547,
+    "longitude": 2.392828
+  },
+  {
+    "name": "UNLCK",
+    "city": "Courbevoie",
+    "stacks": ["drupal", "symfony"],
+    "latitude": 48.8967,
+    "longitude": 2.2567
+  },
+  {
+    "name": "EKYP",
+    "city": "Paris",
+    "stacks": ["php", "symfony"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Extia",
+    "city": "Paris",
+    "stacks": ["sql", "oracle", "excel"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "FREE SAS",
+    "city": "Paris 8e",
+    "stacks": [
+      "symfony",
+      "php",
+      "node",
+      "javascript",
+      "bash",
+      "react",
+      "docker",
+      "jira",
+      "gitlab",
+      "kubernetes"
+    ],
+    "latitude": 48.8763,
+    "longitude": 2.3183
+  },
+  {
+    "name": "Pacific Community",
+    "city": "Nouméa",
+    "stacks": ["excel", "principle"],
+    "latitude": -22.27631,
+    "longitude": 166.4572
+  },
+  {
+    "name": "Extia",
+    "city": "Paris",
+    "stacks": [
+      "python",
+      "django",
+      "flask",
+      "jenkins",
+      "kubernetes",
+      "javascript",
+      "angular"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Novencia",
+    "city": "Paris",
+    "stacks": ["sql", "java"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "VISIAN",
+    "city": "Levallois-Perret",
+    "stacks": ["sql", "arm"],
+    "latitude": 48.890377,
+    "longitude": 2.291999
+  },
+  {
+    "name": "Dailymotion",
+    "city": "Paris",
+    "stacks": [
+      "vertica",
+      "segment",
+      "sql",
+      "r",
+      "python",
+      "tableau",
+      "amplitude"
+    ],
+    "latitude": 48.88559,
+    "longitude": 2.30709
+  },
+  {
+    "name": "Cultura (Version de test)",
+    "city": "Mérignac",
+    "stacks": ["flux", "excel", "tableau"],
+    "latitude": 44.83333,
+    "longitude": -0.63333
+  },
+  {
+    "name": "Novencia",
+    "city": "Paris",
+    "stacks": [
+      "java",
+      "python",
+      "cassandra",
+      "spring",
+      "groovy",
+      "maven",
+      "numpy",
+      "pandas",
+      "flask",
+      "docker",
+      "kubernetes",
+      "ansible",
+      "gitlab",
+      "arm",
+      "azure",
+      "aws",
+      "git"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "1001 Intérims",
+    "city": "Vélizy-Villacoublay",
+    "stacks": ["php", "html", "css", "jquery", "symfony", "git"],
+    "latitude": 48.8,
+    "longitude": 2.18333
+  },
+  {
+    "name": "Infogene",
+    "city": "Neuilly-sur-Seine",
+    "stacks": [
+      "java",
+      "angular",
+      "sql",
+      "oracle",
+      "flux",
+      "javascript",
+      "talend",
+      "spring",
+      "html",
+      "jira",
+      "sap"
+    ],
+    "latitude": 48.88333,
+    "longitude": 2.26667
+  },
+  {
+    "name": "Publicis Luxe",
+    "city": "Paris 11e",
+    "stacks": ["pig", "vue"],
+    "latitude": 48.85856,
+    "longitude": 2.37339
+  },
+  {
+    "name": "Ubisoft",
+    "city": "Paris",
+    "stacks": ["ghost", "c#"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Novencia",
+    "city": "Paris",
+    "stacks": [
+      "c#",
+      "winforms",
+      "oracle",
+      "sql",
+      "postgres",
+      "azure",
+      "aws",
+      "java",
+      "python",
+      "kubernetes"
+    ],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "VISIAN",
+    "city": "Levallois-Perret",
+    "stacks": ["java", "html", "javascript", "css", "sql", "arm"],
+    "latitude": 48.890377,
+    "longitude": 2.291999
+  },
+  {
+    "name": "Novencia",
+    "city": "Lyon",
+    "stacks": ["python", "r", "sql", "java"],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "Prismea",
+    "city": "Lyon",
+    "stacks": [
+      "javascript",
+      "css",
+      "typescript",
+      "html",
+      "vue",
+      "jest",
+      "cypress",
+      "gitlab",
+      "slack",
+      "miro",
+      "java"
+    ],
+    "latitude": 45.75,
+    "longitude": 4.85
+  },
+  {
+    "name": "Novencia",
+    "city": "Paris",
+    "stacks": ["salesforce", "java"],
+    "latitude": 48.85341,
+    "longitude": 2.3488
+  },
+  {
+    "name": "Segula Technologies",
+    "city": "Élancourt",
+    "stacks": ["c++", "qt", "prototype"],
+    "latitude": 48.7833,
+    "longitude": 1.95
+  },
+  {
+    "name": "ALGORYS",
+    "city": "Lyon 8e",
+    "stacks": ["python", "sql", "postgres"],
+    "latitude": 45.7363,
+    "longitude": 4.8687
+  }
+]
